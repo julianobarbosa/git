@@ -20,8 +20,11 @@ mkdir /docker_data/git/mynewproject.git
 cd /docker_data/git/mynewproject.git
 git --bare init
 chown -R 987:987 .
+```
+
 Clone the repo from a client:
 
+```console
 git clone ssh://git@myserver:2222/git/mynewproject.git
 ```
 
