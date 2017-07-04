@@ -35,3 +35,5 @@ mkdir /docker_data/git/git-shell-commands
 chown 987:987 /docker_data/git/git-shell-commands
 chmod 700 /docker_data/git/git-shell-commands
 ```
+# List .gitignore
+git ls-files --others --ignored --exclude-standard
