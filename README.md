@@ -1,3 +1,10 @@
+# configure
+git config --global merge.tool p4merge
+git config --global mergetool.prompt false
+git config --global mergetool.keepbackup false
+git config --global mergetool.keeptemporaries false
+
+
 # Add users
 Setup SSH:
 ```console
@@ -37,3 +44,13 @@ chmod 700 /docker_data/git/git-shell-commands
 ```
 # List .gitignore
 git ls-files --others --ignored --exclude-standard
+
+
+# Ref:
+https://www.perforce.com/downloads/visual-merge-tool
+
+# /usr/local/bin
+```console
+#!/bin/bash
+/opt/p4merge/bin/p4merge
+```
