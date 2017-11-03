@@ -1,8 +1,10 @@
 # configure
+```console
 git config --global merge.tool p4merge
 git config --global mergetool.prompt false
 git config --global mergetool.keepbackup false
 git config --global mergetool.keeptemporaries false
+```
 
 
 # Add users
