@@ -137,6 +137,7 @@ _N/A_ | `git push origin master`
 
 ## References
 
+ - https://jeffkreeftmeijer.com/git-flow/
  - https://datasift.github.io/gitflow/GitFlowForGitHub.html
  - https://help.poolparty.biz/display/UDDOC/Branching+and+Release+Policy%2C+GitFlow
  - http://danielkummer.github.io/git-flow-cheatsheet/
